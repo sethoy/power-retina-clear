@@ -202,13 +202,28 @@
             font-size: 28px;
         }
     }
+        /* 1. Establish structural positioning on the body element */
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* 2. Style the transparent click overlay block */
+.global-page-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10; /* Covers everything on the standard layout layer */
+    cursor: pointer;
+    background-color: transparent;
+}
     </style>
-<script>
-function redirectToPage() {
-  window.location.href = "https://www.follwtrk.com/2BZZLHG/CGMFQMW/";
-}</script>
+
 </head>
-<body onclick="redirectToPage()" style="cursor: pointer;">
+<body style="cursor: pointer;">
+    <a href="https://www.macharecords.com/356KQHR/CGMFQMW/" class="global-page-overlay" aria-label="View Offer Details"></a>
     <section class="health-news-header">
         <h2>
             CANCELLED OPTOMETRIST:
